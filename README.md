@@ -11,5 +11,3 @@ O Reader Books é uma página web desenvolvida para reunir e recomendar livros e
 HTML5: Estrutura semântica da página
 CSS3: Estilização, animações e layout responsivo
 JavaScript: Interatividade e dinamismo
-
-<p align="center">Meu primeiro projeto pessoal <strong> sGabriel Teramae Chan </strong> </p>
