@@ -8,6 +8,6 @@ O Reader Books é uma página web desenvolvida para reunir e recomendar livros e
 💻 Linguagens de Programação — guias práticos sobre linguagens diversas existentes
 
 🛠️ Tecnologias Utilizadas
-HTML5: Estrutura semântica da página
-CSS3: Estilização, animações e layout responsivo
-JavaScript: Interatividade e dinamismo
+  - HTML5
+  - CSS3
+  - JavaScript
