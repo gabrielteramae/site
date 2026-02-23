@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Reader Books</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Indicador de livros para leitores.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Gabriel Teramae Chan">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Reader Books</div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="ri-home-line"></i>Início</a></li>
+                <li><a href="sobre.html"><i class="ri-book-line"></i>Sobre Nós</a></li>
+                <li><a href="produtos.html"><i class="ri-store-line"></i>Produtos</a></li>
+                <li><a href="contato.html"><i class="ri-user-line"></i>Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="./img/hábitos.png" alt="Hábitos de Leitura">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Leitura</p>
+                    <p class="product-name">Hábitos de Leitura</p>
+                    <p class="description">Desenvolva hábitos de leitura eficazes e transforme sua experiência com
+                        livros.</p>
+                    <button class="btn">Saiba Mais</button>
+
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/lógica.png" alt="Logica de Programacao">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Programação</p>
+                    <p class="product-name">Lógica de Programação</p>
+                    <p class="description">Explore os fundamentos da lógica de programação. Aprenda sobre
+                        algoritmos,
+                        estruturas de controle, variáveis e muito mais para desenvolver suas habilidades de
+                        programação.
+                    </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/linguagens.png" alt="Linguagens de Programacao">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Programação</p>
+                    <p class="product-name">Linguagens de Programação</p>
+                    <p class="description">Explore as linguagens de programação mais populares e suas
+                        aplicações.
+                        Aprenda sobre Python, JavaScript, Java, C++ e muito mais.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="arrows">
+                <button class="arrow-btn" id="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z">
+                        </path>
+                    </svg>
+                </button>
+                <button class="arrow-btn" id="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+    </main>
+
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
