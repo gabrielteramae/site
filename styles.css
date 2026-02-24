@@ -209,17 +209,3 @@ nav ul li:hover {
 .item:nth-child(3) .btn {
     background-color: rgb(70, 212, 162);
 }
-
-/* Tema claro (padrão quando adicionar a classe) */
-body.light {
-    background: #f0f0f0;
-    color: #111;
-}
-
-body.light header {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-body.light .product-name {
-    color: #111;
-}
